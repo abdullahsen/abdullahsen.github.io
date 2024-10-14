@@ -1,0 +1,7 @@
+ul.no-bullets li {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
