@@ -40,6 +40,10 @@ p {
     padding: 16px;
 }
 
+.centered-text {
+    text-align: center;
+}
+
 .navbar {
     display: flex;
     align-content: center;
@@ -102,7 +106,7 @@ img.card-item {
     background-color: #669af9;
 
     /* Add border */
-     border: 1px solid #669af9;
+    border: 1px solid #669af9;
 
     /* Add space between the border and the content */
     padding: 8px;
@@ -119,10 +123,55 @@ img.card-item {
     height: 100px;
 }
 
-.footer-logo-container {
+.footer-text-container {
     display: inline-grid;
-    margin: 0;
-   /* margin: 16px;*/
+    margin: 16px;
+    align-content: center;
     justify-content: center;
     align-items: center;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    small {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/*
+Lesson.html
+*/
+
+.course-item {
+    background-color: #669af9;
+    justify-content: space-between;
+    display: flex;
+    padding: 24px;
+    margin: 8px 24px;
+}
+
+.course-item-image {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-item-text {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .course-item {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
