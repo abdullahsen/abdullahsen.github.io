@@ -1,0 +1,5 @@
+Student name: Abdullah Sen
+Student number: 735987
+Student class: HAIT24FT1C
+GitHub Repository: https://github.com/abdullahsen/abdullahsen.github.io
+GitHub Pages URL: https://abdullahsen.github.io/
