@@ -158,7 +158,7 @@ img.card-item-image {
     }
 }
 
-@media (min-width: 984px) {
+@media (min-width: 992px) {
     .fact-items-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -316,7 +316,7 @@ th, td {
     }
 }
 
-@media (min-width: 984px) {
+@media (min-width: 992px) {
     .equipments-container {
         grid-template-columns: repeat(3, 1fr);
     }
