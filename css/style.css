@@ -201,17 +201,17 @@ img.card-item-image {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
 
-    p {
-        margin: 0;
-        padding: 0;
-        text-indent: 0;
-    }
+.footer-text-container p {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
 
-    small {
-        margin: 0;
-        padding: 0;
-    }
+.footer-text-container small {
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
@@ -246,28 +246,27 @@ img.card-item-image {
         flex-direction: column;
         justify-content: center; /* align children centered vertically */
         align-items: center; /* align children centered horizontally */
+    }
 
-        img {
-            order: 1;
-        }
+    .wide-card-container img {
+        order: 1;
+    }
 
-        section {
-            order: 2;
-        }
+    .wide-card-container section {
+        order: 2;
     }
 
     .footer-text-logo-container {
         flex-direction: column;
-
-        img {
-            order: 1;
-        }
-
-        section {
-            order: 2;
-        }
     }
 
+    .footer-text-logo-container img {
+        order: 1;
+    }
+
+    .footer-text-logo-container section {
+        order: 2;
+    }
 }
 
 .partner-app-item-logo {
@@ -275,11 +274,9 @@ img.card-item-image {
     width: 150px;
 }
 
-.partner-description {
-    p, ul {
-        margin-left: 32px;
-        color: #FFFFFF;
-    }
+.partner-description p, ul {
+    margin-left: 32px;
+    color: #FFFFFF;
 }
 
 .equipment-image {
@@ -375,8 +372,8 @@ th, td {
 .form-style .button {
     position: relative;
     bottom: 8px;
-    float:right;
-    clear:both;
+    float: right;
+    clear: both;
     background-color: #a32c00;
     color: #FFFFFF;
     border-color: #a32c00;
